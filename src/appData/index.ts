@@ -9,6 +9,11 @@ import {
   SocketIcon,
   TailwindCSS,
   TypescriptIcon,
+  SpringBootIcon,
+  KubernetesIcon,
+  DockerIcon,
+  RedisIcon,
+  KafkaIcon,
 } from '../utils/icons'
 
 // Project Data
@@ -102,6 +107,10 @@ export const serviceData = [
 // Skill List
 export const skillList = [
   {
+    name: 'SpringBoot',
+    icon: SpringBootIcon,
+  },
+  {
     name: 'JavaScript',
     icon: JavaScriptIcon,
   },
@@ -114,20 +123,20 @@ export const skillList = [
     icon: ReactIcon,
   },
   {
-    name: 'Next.js',
-    icon: NextjsIcon,
+    name: 'Kafka',
+    icon: KafkaIcon,
   },
   {
-    name: 'Node.js',
-    icon: NodejsIcon,
+    name: 'Docker',
+    icon: DockerIcon,
   },
   {
-    name: 'Express.js',
-    icon: ExpressjsIcon,
+    name: 'Kubernetes',
+    icon: KubernetesIcon,
   },
   {
-    name: 'Nest.js',
-    icon: NestjsIcon,
+    name: 'Redis',
+    icon: RedisIcon,
   },
   {
     name: 'Socket.io',
@@ -138,15 +147,6 @@ export const skillList = [
 export const footerLinks = [
   { title: 'About', href: '#' },
   { title: 'Projects', href: '#projects' },
-  { title: 'Testimonials', href: '#testimonials' },
-  {
-    title: 'Blogs',
-    href: '#blogs',
-  },
-  {
-    title: 'Services',
-    href: '#services',
-  },
   {
     title: 'Contact',
     href: '#contact',

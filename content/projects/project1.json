@@ -1,9 +1,9 @@
 {
   "priority": 1,
-  "title": "Color Contrast Collection",
-  "shortDescription": "Curated Background with Text colors contrast, help you to pick best contrast for your websites",
+  "title": "EazySchool",
+  "shortDescription": "A comprehensive school management system designed to streamline administrative tasks, enhance communication, and improve the overall educational experience for students, teachers, and parents.",
   "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1645090814/color-contrast_n598kw.png",
-  "livePreview": "https://example.com/alpha",
-  "type": "Client Work 🙍‍♂️",
-  "siteAge": "1 month old"
+  "githubLink": "https://github.com/Nikhildevnikhil/EazySchool",
+  "type": "Project",
+  "visitors": "78 Visitors"
 }

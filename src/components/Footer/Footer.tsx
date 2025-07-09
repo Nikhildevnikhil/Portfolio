@@ -9,12 +9,8 @@ const Footer = () => {
         <div>
           <h5 className="mb-8 flex items-center gap-2">
             <Logo width={30} height={24} />
-            <span className="text-neutral text-lg font-medium">Logoipsum</span>
+            <span className="text-neutral text-lg font-medium">Nikhil Deo</span>
           </h5>
-          <p className="text-tertiary-content">
-            The first free end-to-end analytics service for the site, designed to work with
-            enterprises of various levels and business segments.
-          </p>
           <a
             href="#"
             className="text-neutral mt-4 inline-flex items-center gap-2 text-xs hover:underline">
@@ -60,26 +56,26 @@ const Footer = () => {
               <a
                 href="mailto:johndoe@gmail.com"
                 className="text-tertiary-content hover:text-neutral text-sm font-light transition-colors duration-300">
-                johndoe@gmail.com
+                nikhildeonikhil@gmail.com
               </a>
               <a
                 href="tel:+92 3123456789"
                 className="text-tertiary-content hover:text-neutral text-sm font-light transition-colors duration-300">
-                +92 3123456789
+                +91 8228854555
               </a>
             </div>
             <div>
               <div>
                 <h5 className="text-neutral mb-4 text-lg font-medium">Location</h5>
                 <address className="text-tertiary-content flex flex-col text-sm font-light">
-                  <span>123456, Pakistan</span>
-                  <span>Karachi 22/5/8, Office 4</span>
+                  <span>Kolkata</span>
+                  <span>West Bengal</span>
                 </address>
               </div>
             </div>
           </div>
 
-          <div className="md:self-end">
+          {/* <div className="md:self-end">
             <p className="text-neutral mb-8 text-sm md:text-right">Languages</p>
             <div className="flex gap-8 md:gap-4 lg:gap-8">
               {languages.map((language, idx) => (
@@ -90,7 +86,7 @@ const Footer = () => {
                 </span>
               ))}
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
 

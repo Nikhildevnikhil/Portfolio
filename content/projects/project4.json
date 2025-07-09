@@ -1,12 +1,11 @@
 {
   "priority": 4,
-  "title": "Ejucationzz",
-  "shortDescription": "Ejucationzz is a directory site I created for myself using Next.js. On Ejucationzz, you can find free and paid online and offline courses available in Pakistan. 14 academies and 12 main categories, each with subcategories, have been listed.",
+  "title": "Portfolio",
+  "shortDescription": "A personal portfolio website showcasing my projects, skills, and experiences. Built with Next.js, TypeScript, and Tailwind CSS.",
   "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1598035107/pomodoro-clock_ctp2af.png",
   "type": "New 🔥",
-  "livePreview": "https://example.com/Ejucationzz",
-  "siteAge": "4 months old",
+  "livePreview": "https://https://my-portfolio-beryl-omega-67.vercel.app/",
+  "githubStars": "12 Stars",
   "visitors": "100 Visitors",
-  "githubLink": "",
-  "earned": ""
+  "githubLink": "https://github.com/Nikhildevnikhil/My-Portfolio"
 }

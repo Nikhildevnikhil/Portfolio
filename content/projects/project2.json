@@ -1,9 +1,9 @@
 {
   "priority": 2,
-  "title": "Codevertiser",
-  "shortDescription": "A programming related article site to share my learnings",
+  "title": "EazyBank-Microservices",
+  "shortDescription": "EazyBank is a microservices-based banking application that allows banks to manage bank accounts, cards, and loan details. It is built using Spring Boot, React, and Kafka.",
   "cover": "https://res.cloudinary.com/dyvkdwzcj/image/upload/v1656970810/Codevertiser_xlxdje.png",
-  "livePreview": "https://example.com/beta",
-  "visitors": "8K Visitors",
-  "earned": "$400 Earned"
+  "visitors": "160 Visitors",
+  "githubLink": "https://github.com/Nikhildevnikhil/EazyBank-Microservices",
+  "type": "Project"
 }

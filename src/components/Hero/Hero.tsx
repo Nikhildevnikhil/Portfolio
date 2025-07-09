@@ -7,14 +7,16 @@ import Ellipse from './Ellipse'
 
 const Hero = () => {
   const ellipseRef = useRotatingAnimation()
-  const role = useRoleSwitcher({ roles: ['FULLSTACK DEVELOPER', 'INDIE HACKER', 'SOLOPRENEUR'] })
+  const role = useRoleSwitcher({
+    roles: ['FULLSTACK DEVELOPER', 'MICROSERVICES DEVELOPER', 'GENAI DEVELOPER'],
+  })
 
   return (
     <section className="bg-primary bg-small-glow bg-small-glow-position md:bg-large-glow-position lg:bg-large-glow min-h-[calc(dvh-4rem)] bg-no-repeat">
       <div className="mx-auto grid max-w-[1200px] grid-cols-1 items-center gap-4 px-4 pt-12 pb-10 md:grid-cols-2 lg:p-4">
         <div className="flex min-h-48 flex-col justify-between lg:min-h-56 lg:max-w-[33.75rem]">
           <h1>
-            <span className="text-neutral mb-2 block text-3xl font-bold">Hi - I'm John Doe</span>
+            <span className="text-neutral mb-2 block text-3xl font-bold">Hi - I'm Nikhil Deo</span>
             <span className="text-accent block text-[1.75rem] font-bold">{role}</span>
           </h1>
 
@@ -24,15 +26,18 @@ const Hero = () => {
 
           <div className="mt-6 flex flex-wrap gap-6">
             <a
-              href="#"
+              href="https://drive.google.com/file/d/1pt1J1D84KRR4NjhW0hePVLE5J6GS48Rl/view?usp=sharing"
               aria-label="Connect with me"
+              target="_blank"
               className="bg-accent min-w-32 cursor-pointer rounded-lg px-[14px] py-[10px] text-center text-sm font-medium text-[#00071E]">
-              Hire Me
+              Resume
             </a>
             <a
-              href="#"
+              href="https://www.linkedin.com/in/nikhildeo1610/"
               aria-label="View LinkedIn Profile"
-              className="text-neutral bg-secondary cursor-pointer rounded-lg px-[14px] py-[10px] text-sm">
+              className="text-neutral bg-secondary cursor-pointer rounded-lg px-[14px] py-[10px] text-sm"
+              target="_blank"
+              rel="noopener noreferrer">
               LinkedIn Profile
             </a>
           </div>

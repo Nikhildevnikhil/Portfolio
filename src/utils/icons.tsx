@@ -13,6 +13,11 @@ import Star from '../assets/icons/star.svg'
 import TailwindCSS from '../assets/icons/tailwind-css.svg'
 import Timer from '../assets/icons/timer.svg'
 import TypescriptIcon from '../assets/icons/typescript.svg'
+import SpringBootIcon from '../assets/icons/SpringBoot.svg'
+import KafkaIcon from '../assets/icons/kafka.svg'
+import RedisIcon from '../assets/icons/redis.svg'
+import DockerIcon from '../assets/icons/docker.svg'
+import KubernetesIcon from '../assets/icons/kubernetes.svg'
 
 const PreviewIcon: FC<SVGProps<SVGSVGElement>> = (props) => {
   return (
@@ -336,4 +341,9 @@ export {
   Timer,
   TypescriptIcon,
   X,
+  SpringBootIcon,
+  KafkaIcon,
+  RedisIcon,
+  DockerIcon,
+  KubernetesIcon
 }
