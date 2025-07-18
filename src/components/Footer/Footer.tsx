@@ -1,4 +1,4 @@
-import { footerLinks, languages } from '@/appData'
+import { footerLinks } from '@/appData'
 import { socials } from '@/appData/personal'
 import Logo from '../Navbar/Logo'
 
@@ -74,19 +74,6 @@ const Footer = () => {
               </div>
             </div>
           </div>
-
-          {/* <div className="md:self-end">
-            <p className="text-neutral mb-8 text-sm md:text-right">Languages</p>
-            <div className="flex gap-8 md:gap-4 lg:gap-8">
-              {languages.map((language, idx) => (
-                <span
-                  key={language}
-                  className={idx === 0 ? 'text-neutral' : 'text-tertiary-content'}>
-                  {language}
-                </span>
-              ))}
-            </div>
-          </div> */}
         </div>
       </div>
 
